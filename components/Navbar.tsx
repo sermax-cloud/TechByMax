@@ -47,7 +47,7 @@ const Navbar: React.FC = () => {
             </NavLink>
           ))}
           <a
-            href="https://wa.me/233550000000"
+            href="https://wa.me/233242943446"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 bg-secondary text-white px-5 py-2.5 rounded-full text-sm font-semibold hover:bg-primary transition-colors"
@@ -83,7 +83,7 @@ const Navbar: React.FC = () => {
               </NavLink>
             ))}
             <a
-              href="https://wa.me/233550000000"
+              href="https://wa.me/233242943446"
               className="flex items-center justify-center gap-2 bg-primary text-white py-3 rounded-lg font-semibold"
             >
               Start Project
