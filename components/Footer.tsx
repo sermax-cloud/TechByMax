@@ -29,10 +29,14 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="text-lg font-bold mb-6 font-display">Company</h4>
             <ul className="space-y-4">
-              {['About Us', 'Our Team', 'Careers', 'Latest News', 'Contact'].map((item) => (
-                <li key={item}>
-                  <NavLink to="#" className="text-gray-400 hover:text-primary transition-colors hover:pl-2 duration-200 block">
-                    {item}
+              {[
+                { label: 'About Us', path: '/about' },
+                { label: 'Our Team', path: '/about' },
+                { label: 'Contact', path: '/contact' }
+              ].map((item) => (
+                <li key={item.label}>
+                  <NavLink to={item.path} className="text-gray-400 hover:text-primary transition-colors hover:pl-2 duration-200 block">
+                    {item.label}
                   </NavLink>
                 </li>
               ))}
