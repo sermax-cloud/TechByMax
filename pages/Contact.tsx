@@ -44,14 +44,14 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <p className="font-bold text-secondary">Office</p>
-                    <p>12 Independence Avenue,<br />Airport City, Accra, Ghana</p>
+                    <p>Ashaley Botwe,<br />Accra, Ghana</p>
                   </div>
                 </div>
               </div>
 
               <div className="mt-8 pt-8 border-t border-gray-100">
                 <a
-                  href="https://wa.me/233550000000"
+                  href="https://wa.me/233242943446"
                   target="_blank"
                   rel="noreferrer"
                   className="w-full bg-[#25D366] text-white py-3 rounded-xl font-bold flex items-center justify-center gap-2 hover:bg-[#20bd5a] transition-colors shadow-lg shadow-green-200"
@@ -73,7 +73,7 @@ const Contact: React.FC = () => {
                 scrolling="no"
                 marginHeight={0}
                 marginWidth={0}
-                src="https://maps.google.com/maps?q=Airport+City+Accra&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                src="https://maps.google.com/maps?q=Ashaley+Botwe+Accra&t=&z=13&ie=UTF8&iwloc=&output=embed"
                 title="Map"
                 className="opacity-80 hover:opacity-100 transition-opacity"
               ></iframe>
@@ -112,7 +112,7 @@ const Contact: React.FC = () => {
                 <div className="space-y-2">
                   <label className="text-sm font-semibold text-gray-700">Project Budget (GHS)</label>
                   <select className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all bg-gray-50 focus:bg-white text-gray-600">
-                    <option>GHS 5,000 - 15,000</option>
+                    <option>GHS 3,000 - 15,000</option>
                     <option>GHS 15,000 - 50,000</option>
                     <option>GHS 50,000 - 100,000</option>
                     <option>GHS 100,000+</option>

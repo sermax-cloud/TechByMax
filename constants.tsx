@@ -108,7 +108,7 @@ export const PROJECTS: Project[] = [
     title: 'Luxury Homes GH',
     category: 'Real Estate Website',
     description: 'Premium property listing platform with virtual tours.',
-    image: 'https://picsum.photos/800/600?random=4',
+    image: '/project-luxury-homes.jpg',
     tags: ['UI/UX', 'Frontend', 'Gallery']
   }
 ];

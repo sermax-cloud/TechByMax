@@ -18,9 +18,9 @@ const Footer: React.FC = () => {
             </p>
             <div className="flex space-x-4">
               {[Facebook, Twitter, Instagram, Linkedin].map((Icon, idx) => (
-                <a key={idx} href="#" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary transition-colors text-white">
+                <div key={idx} className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-white">
                   <Icon size={18} />
-                </a>
+                </div>
               ))}
             </div>
           </div>
@@ -63,7 +63,7 @@ const Footer: React.FC = () => {
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-gray-400">
                 <MapPin className="w-5 h-5 text-primary shrink-0 mt-1" />
-                <span>12 Independence Avenue,<br />Airport City, Accra, Ghana</span>
+                <span>Ashaley Botwe,<br />Accra, Ghana</span>
               </li>
               <li className="flex items-center gap-3 text-gray-400">
                 <Phone className="w-5 h-5 text-primary shrink-0" />
@@ -80,8 +80,8 @@ const Footer: React.FC = () => {
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-gray-500 text-sm">
           <p>© {new Date().getFullYear()} TechByMax. All rights reserved.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
+            <span className="text-gray-500">Privacy Policy</span>
+            <span className="text-gray-500">Terms of Service</span>
           </div>
         </div>
       </div>

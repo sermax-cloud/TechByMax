@@ -60,14 +60,13 @@ const About: React.FC = () => {
         <div className="absolute inset-0 bg-grid-pattern opacity-50" />
         <div className="container mx-auto px-6 relative z-10">
           <SectionHeader title="Meet The Minds" subtitle="Our Team" />
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="flex flex-wrap justify-center gap-10">
             {[
               { name: 'Maxwell Dela', role: 'Founder & Lead Engineer', img: '/team-maxwell.jpg' },
-              { name: 'Sarah Mensah', role: 'Head of Design', img: '/team-sarah.png' },
-              { name: 'Kofi Annan', role: 'Senior AI Specialist', img: '/kofi-annan.png' },
-              { name: 'Akosua Agyeman', role: 'Project Manager', img: '/akosua-agyeman.png' },
+              { name: 'Prince Asare', role: 'Head of Design', img: '/prince-asare.jpg' },
+              { name: 'Esch Barnor', role: 'Project Manager', img: '/esch-barnor.jpg' },
             ].map((member, idx) => (
-              <div key={idx} className="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
+              <div key={idx} className="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 w-full max-w-[320px]">
                 <div className="relative overflow-hidden aspect-square">
                   <img src={member.img} alt={member.name} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
                 </div>
