@@ -65,6 +65,8 @@ const Home: React.FC = () => {
                     src="/hero-image.jpg"
                     alt="Hero"
                     className="w-full h-full object-cover"
+                    fetchPriority="high"
+                    decoding="async"
                   />
                   <div className="absolute inset-0 bg-emerald-600/20 mix-blend-multiply"></div>
                 </div>
